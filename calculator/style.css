@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    height: 450px;
+    margin-top: 20px;
+}
+
+.input {
+    width: 260px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    text-align: right;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    line-height: 40px;
+}
+
+.boxes {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    font-size: 20px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.symbols {
+    background-color: #000000;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+button.clear {
+    background-color: #ff0707;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
