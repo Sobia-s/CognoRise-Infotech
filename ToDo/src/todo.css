@@ -1,0 +1,98 @@
+body {
+  background-color: #098cff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.to-do {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f9fc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.goal-form, .goal-list {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.goal-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goal-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.goal-list span {
+  font-size: 1rem;
+  color: #333;
+}
+
+.goal-list button {
+  background-color: #dc3545;
+}
+
+.goal-list button:hover {
+  background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .to-do {
+      padding: 10px;
+  }
+
+  input[type="text"], button {
+      font-size: 0.9rem;
+      padding: 8px;
+  }
+
+  h2 {
+      font-size: 1.2rem;
+  }
+}
